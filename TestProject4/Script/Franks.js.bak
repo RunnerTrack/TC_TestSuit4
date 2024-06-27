@@ -1,0 +1,3 @@
+﻿function Franks(){
+  Log.Message("Franks called");
+}

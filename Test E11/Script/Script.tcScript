@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Unit_Init_LieferDisziplin" key="{3F821365-65B1-4BE0-B9BC-A0F0BB033CC7}" path="Unit_Init_LieferDisziplin.js" />
+		<child name="Unit_Login__Check" key="{3EF696EC-646D-41FC-AE7D-80605FF08B63}" path="Unit_Login__Check.js" />
+		<child name="Unit2_tomcat" key="{4FB1F60C-425A-4E5D-9C95-B8131727DAF2}" path="Unit2_tomcat.js" />
+		<child name="Unit3_Read_File" key="{8AA8E89B-D6C4-4A6F-9D19-B7964D3D6807}" path="Unit3_Read_File.js" />
+		<child name="Sent_zu_Jira" key="{218CBC7E-944A-4119-8B71-47FB186C8339}" path="Sent_zu_Jira.js" />
+		<child name="base64" key="{6167535A-48AF-4846-AF98-217EC32BD645}" path="base64.js" />
+		<child name="Sent2_Jira" key="{6432BEAF-B76A-4F01-9D22-BD7F9EE76F11}" path="Sent2_Jira.js" />
+		<child name="Sent3_Jira" key="{0E168C7E-8E3D-487F-B8F3-ED3042930C36}" path="Sent3_Jira.js" />
+		<child name="Sent4_Jira" key="{F56F0AAD-171B-42F9-BEE7-B600D7F82272}" path="Sent4_Jira.js" />
+	</children>
+</Root>

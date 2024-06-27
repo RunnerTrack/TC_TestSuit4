@@ -1,0 +1,10 @@
+﻿function starting()
+{
+// Project-level OnStartTest functionality (replace with your actual logic)
+aqProject.OnTestStart.js = function(sender, test) {
+  Log.Message("Test: " + test.Name + " has started!");
+  
+  // Your code to be executed at test start (common for all tests in Test_Rot)
+  // For example, setting up test data or initializing variables
+};
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 1">
+			<Prp name="message" type="S" value="The 'POST' request to 'https://berryerric.atlassian.net/rest/api/3/issue/WAFA-1/comment' was sent with the status code 400."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45450.4960365046"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Response status text: Bad Request&#xA;&#xA;Response body:&#xA;{&quot;errorMessages&quot;:[&quot;No content to map to Object due to end of input&quot;]}&#xA;&#xA;All response headers:&#xA;Cache-Control: no-store, no-cache&#xA;Date: Fri, 07 Jun 2024 09:54:17 GMT&#xA;Content-Length: 69&#xA;Content-Type: application/json;charset=UTF-8&#xA;Server: AtlassianEdge&#xA;Set-Cookie: atlassian.xsrf.token=30825295e4a99c52b22177c465e573ae496a936e_lin; Path=/; SameSite=None; Secure&#xA;Timing-Allow-Origin: *&#xA;X-Arequestid: 6b2cdd293da22b5ad8627cbb2761d93a&#xA;X-Aaccountid: 63c1033198bf50328c692b2e&#xA;X-Content-Type-Options: nosniff&#xA;X-Xss-Protection: 1; mode=block&#xA;Atl-Traceid: 805b888b000746718fb9f7442cc54bb1&#xA;Strict-Transport-Security: max-age=63072000; includeSubDomains; preload&#xA;Report-To: {&quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dz8aopenkvv6s.cloudfront.net&quot;}], &quot;group&quot;: &quot;endpoint-1&quot;, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600}&#xA;Nel: {&quot;failure_fraction&quot;: 0.001, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600, &quot;report_to&quot;: &quot;endpoint-1&quot;}&#xA;&#xA;"/>
+			<Prp name="line no" type="I" value="46"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="sendTestResultsToJira"/>
+			<Prp name="line no" type="I" value="48"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45450.4961464005"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="48"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="child data"/>
+		<Node name="message 2">
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="message" type="S" value="Error: The object does not support this property or method."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45450.4961446296"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="JavaScript runtime error.&#xA;&#xA;Error: The object does not support this property or method.&#xA;&#xA;Error location:&#xA;Unit: &quot;TestSuit4\Test_E11\Script\Sent3_Jira&quot;&#xA;Line: 49 Column: 26."/>
+			<Prp name="line no" type="I" value="48"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="message" type="S" value="Sending the 'POST' request to 'https://berryerric.atlassian.net/rest/api/3/issue/WAFA-1/comment'."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45450.496033669"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="line no" type="I" value="46"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{0E168C7E-8E3D-487F-B8F3-ED3042930C36}"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="48"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="starting"/>
+			<Prp name="line no" type="I" value="69"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

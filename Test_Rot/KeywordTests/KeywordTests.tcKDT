@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Test1" key="{E14337A6-E844-47D7-875D-DDD0514E6249}" path="Test1.tcKDTest" />
+		<child name="Test2_Farbe" key="{F14A40F1-A237-4D01-B977-8F7279966A9D}" path="Test2_Farbe.tcKDTest" />
+		<child name="Test3" key="{54977E84-BB5B-4F0B-A048-E69676008916}" path="Test3.tcKDTest" />
+		<child name="Test4" key="{A4ECAC16-767B-4D68-AC81-3E26725C67DC}" path="Test4.tcKDTest" />
+		<child name="Test5" key="{DC20AB46-B3D9-46C3-A126-8A3F490C57E2}" path="Test5.tcKDTest" />
+	</children>
+</Root>

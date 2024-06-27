@@ -1,0 +1,44 @@
+﻿function start(){
+  ListBrowsers();
+CheckAndOpenEdge("http://win2016-vss:2980/MiFID/");
+}
+
+function ListBrowsers()
+{
+  var browser;
+  
+  for (var i=0; i < Browsers.Count; i++)
+  {
+    browser = Browsers.Item(i);
+    Log.Message("Browser " + aqConvert.IntToStr(i) + " : " + browser.Description);
+  }
+}
+function CheckAndOpenEdge(pageUrl) {
+  var browserName = "msedge";
+//  var pageUrl = "https://smartbearstore.smartbear.com/samples/TestComplete14/smartstore/";
+ // let p = Sys.Browser("*");
+  // Überprüfen, ob der Edge-Browser geöffnet ist
+  var browser = Sys.WaitBrowser(browserName, 5000);
+  var isEdgeOpen = browser.Exists;
+  
+  if (isEdgeOpen) {
+    // Edge ist geöffnet, navigieren zur gewünschten Seite
+    var page=browser.Page("*");
+    page.Keys("^t").Keys("^t");
+    
+    Delay(1000);
+    page.Keys("^t");
+    browser.ToUrl(pageUrl);
+    Log.Message("Opened a new tab and navigated to " + pageUrl + " in Edge.");
+  } else {
+    // Edge ist nicht geöffnet, Browser starten und zur gewünschten Seite navigieren
+    var browser = Browsers.Item(btEdge).Run(pageUrl);
+    Log.Message("Started Edge and navigated to " + pageUrl);
+  }
+}
+
+function Test1()
+{
+
+
+}

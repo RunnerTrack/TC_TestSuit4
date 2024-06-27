@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="Maske_WPLD_Wert_Anzeigen [Script\Unit_Login__Check - Maske_WPLD_Wert_Anzeigen]"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="45450.5289793171"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="end time" type="D" value="45450.5291037616"/>
+				<Prp name="details" type="S" value="{64AE458F-2622-4342-A78F-EB58E2651765}"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="1"/>
+			</Node>
+			<Node name="row5">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="Read_Text_File &lt; Iteration 3 &gt; [Script\Unit3_Read_File - Read_Text_File]"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="45450.5291173843"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="45450.529118206"/>
+				<Prp name="details" type="S" value="{A94C9AE3-BF0A-420D-85E3-2E239E625E3D}"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="5"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="Maske_WPLD_Geld_Zeigen [Script\Unit_Login__Check - Maske_WPLD_Geld_Anzeigen]"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="45450.529103831"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="end time" type="D" value="45450.5291149653"/>
+				<Prp name="details" type="S" value="{90FE71D9-64F9-4A59-9E78-B509D65778B1}"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="2"/>
+			</Node>
+			<Node name="row4">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="Read_Text_File &lt; Iteration 2 &gt; [Script\Unit3_Read_File - Read_Text_File]"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="45450.5291165162"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="45450.529117338"/>
+				<Prp name="details" type="S" value="{7C8AD56B-2A18-42D1-B410-947F4EDF2EA4}"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="4"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="Login [Script\Unit_Login__Check - Login]"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="45450.5288987153"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="45450.5289792245"/>
+				<Prp name="details" type="S" value="{B3E6634D-3D7E-46EC-A645-D2BBBB7B75C8}"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="0"/>
+			</Node>
+			<Node name="row3">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="Read_Text_File &lt; Iteration 1 &gt; [Script\Unit3_Read_File - Read_Text_File]"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="45450.5291150231"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="45450.5291164583"/>
+				<Prp name="details" type="S" value="{6D58E909-6AEA-48AC-BD9E-06EB1D439722}"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="3"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

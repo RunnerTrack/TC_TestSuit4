@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{431A2AC2-29B1-4686-8F07-6C4EAFB47998}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="49" kind="0" dateTime="45448.4106365741" objectName="Sys.Browser().BrowserWindow(0)" objectLeft="-8" objectTop="-8" objectRight="1688" objectBottom="1018" clickPointX="1105" clickPointY="14" imageFileName="tcvi12332593138880.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="52" kind="0" dateTime="45448.4107291667" objectName="Sys.Browser().Page(&quot;https://www.bing.com/search*&quot;).FindElement(&quot;//body[contains(., &apos;Weiter zum Inhalt&apos;)]&quot;)" objectLeft="4" objectTop="104" objectRight="1621" objectBottom="3732" clickPointX="-1" clickPointY="1049" imageFileName="tcvi12340265138884.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="53" kind="0" dateTime="45448.4108217593" objectName="Sys.Browser().Page(&quot;http://win2016-vss:2980/MiFID/&quot;, 3).FindElement(&quot;frame[@name=&apos;Anmeldung&apos;]&quot;).FindElement(&quot;//input[@name=&apos;userid&apos;]&quot;)" objectLeft="725" objectTop="546" objectRight="865" objectBottom="567" clickPointX="-1" clickPointY="1049" imageFileName="tcvi12347578138885.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

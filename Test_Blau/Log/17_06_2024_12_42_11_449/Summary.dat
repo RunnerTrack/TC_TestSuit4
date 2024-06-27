@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45460.5294182639"/>
+						<Prp name="duration" type="I" value="2600"/>
+						<Prp name="name" type="S" value="FalschesDatumBis"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5ADIANQAzADUARAAxADYALQAxAEUAMAAzAC0ANABBADAAQQAtAEIAOAAxADcALQAxADkANABEAEYAQgBCAEMAQgAyADEANAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="2600"/>
+					</Node>
+					<Node name="test4">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The child test GueltigesDatumVomBis failed"/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The child test Maske_WPLD_Wert_Anzeigen_Aufbau failed"/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="45460.5293734259"/>
+						<Prp name="duration" type="I" value="21564"/>
+						<Prp name="name" type="S" value="Maske_WPLD_Wert_Anzeigen"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA0AEUAQwA0AEMANQA0ADEALQBFADEAMwBGAC0ANAA1AEQANAAtAEEAMAA5AEEALQA1ADIAQgA3ADcANgBDAEUAMwAzAEIAQQB9AC8AewAzAEMAMgBEADAANQA1AEYALQBCAEIAMAA0AC0ANAA2ADAAMgAtAEIANwBCAEQALQAxADIAQQA1AEIANwAzAEYARQBFADcAQQB9AC8AGhHL3v86Z0CLViaRMGjlQwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="durationwithoutchildren" type="I" value="3892"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because wItemList does not equal (case-sensitive) &quot;Alle;Non EUR;BGN;CAD;CHF;CZK;DKK;EUR;GBP;HRK;...&quot;. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="45460.5294484375"/>
+						<Prp name="duration" type="I" value="10996"/>
+						<Prp name="name" type="S" value="Maske_WPLD_Wert_Anzeigen_Aufbau"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1ADcAQQAxADMANgBEADUALQAxADgARAA0AC0ANAAxADYARQAtAEIANAA4ADMALQBDADMAOQBBADAANgBBAEMARQAxADQAQgB9AC8AewAzAEMAMgBEADAANQA1AEYALQBCAEIAMAA0AC0ANAA2ADAAMgAtAEIANwBCAEQALQAxADIAQQA1AEIANwAzAEYARQBFADcAQQB9AC8AGhHL3v86Z0CLViaRMGjlQwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="durationwithoutchildren" type="I" value="10996"/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The frame content is not accessible."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="Unable to find the object &quot;//button[@name='button019']&quot;. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="45460.5296026273"/>
+						<Prp name="duration" type="I" value="1757"/>
+						<Prp name="name" type="S" value="GueltigesDatumVomBis"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzAEQAQgBFADQAMQA2AEEALQA4ADkANwAxAC0ANAA2ADkARgAtAEEANwA5AEQALQA2ADQAQQA1ADMAMQA0ADUANgAzADQAOQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="durationwithoutchildren" type="I" value="1757"/>
+					</Node>
+					<Node name="test6">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45460.5296232176"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="Read_Text_File"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+					</Node>
+					<Node name="test5">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The child test Maske_WPLD_Wert_Anzeigen failed"/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="45460.529357037"/>
+						<Prp name="duration" type="I" value="22990"/>
+						<Prp name="name" type="S" value="Login_Ausfuehren"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5AEYAMQBBAEQAMAA2ADEALQA3AEYAQgA2AC0ANAAyADMARAAtAEEAMQA4ADYALQAwAEUAMABEADAARAAxADMAQwBDAEEARQB9AC8AewAzAEMAMgBEADAANQA1AEYALQBCAEIAMAA0AC0ANAA2ADAAMgAtAEIANwBCAEQALQAxADIAQQA1AEIANwAzAEYARQBFADcAQQB9AC8AGhHL3v86Z0CLViaRMGjlQwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="durationwithoutchildren" type="I" value="1426"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45460.5295757523"/>
+						<Prp name="duration" type="I" value="2319"/>
+						<Prp name="name" type="S" value="FalschesDatumVom"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5ADQANABGAEMAQwBDAEEALQBEADMAQQA5AC0ANAAzADcANQAtAEIAOAA1ADcALQA1ADkAMwBGADQANAA1ADAANwBEADkAQgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="2319"/>
+					</Node>
+				</Node>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="45460.529357037"/>
+				<Prp name="duration" type="I" value="22990"/>
+				<Prp name="name" type="S" value="Test_E11_2"/>
+				<Prp name="failedtests" type="I" value="4"/>
+				<Prp name="incompletedtests" type="I" value="1"/>
+			</Node>
+		</Node>
+		<Prp name="host" type="S" value="NB-DSFP010982"/>
+		<Prp name="failedtests" type="I" value="4"/>
+		<Prp name="starttime" type="D" value="45460.5292992708"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="name" type="S" value="TestSuit4"/>
+		<Prp name="tests" type="I" value="7"/>
+		<Prp name="testname" type="S" value="Test_E11_2"/>
+		<Prp name="key" type="S" value="{14DA1101-2B67-45B9-ABF4-E223348574AF}"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="stop" type="D" value="45460.5296240162"/>
+		<Prp name="user" type="S" value="Goerenekli"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="1"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+	</Node>
+</Nodes>

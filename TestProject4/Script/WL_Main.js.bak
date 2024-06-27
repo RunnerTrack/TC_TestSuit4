@@ -1,0 +1,48 @@
+﻿/*
+function test1() {
+  var test1 = require("test1");
+  test1.Test1();
+}
+*/
+
+function WL_test2() {
+  var WL_testing = require("wl_test2");
+  WL_testing.WL_Test2();
+}
+ 
+function WL_test3() {
+  var WL_testing = require("WL_test3");
+  WL_testing.WL_Test3();
+}
+
+sOutput: 
+
+function Patton()
+ {
+ var Patton = require('Patton');        
+Patton.Patton();
+}
+
+function Pope()
+ {
+ var Pope = require('Pope');        
+Pope.Pope();
+}
+
+function Berger()
+ {
+ var Berger = require('Berger');        
+Berger.Berger();
+}
+
+function Cobb()
+ {
+ var Cobb = require('Cobb');        
+Cobb.Cobb();
+}
+
+function Nieves()
+ {
+ var Nieves = require('Nieves');        
+Nieves.Nieves();
+}	

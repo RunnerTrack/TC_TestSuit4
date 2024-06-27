@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Unit1" key="{431A2AC2-29B1-4686-8F07-6C4EAFB47998}" path="Unit1.js" />
+		<child name="Skrpt_Login" key="{1D07D93B-AD42-4E2C-A0EC-A570A2133EF9}" path="B:\TestCompletePro\Training\ExternalScripts\Packages\Skrpt_Login.js" />
+		<child name="Skrpt_Login__Check_WPLD" key="{F7294E72-15CA-458D-B314-04218BC252B3}" path="B:\TestCompletePro\Training\ExternalScripts\Packages\Skrpt_Login__Check_WPLD.js" />
+		<child name="Skrpt_Read_File" key="{543A3BAF-BC03-46BD-83DF-2D6A30E5AC63}" path="B:\TestCompletePro\Training\ExternalScripts\Packages\Skrpt_Read_File.js" />
+		<child name="Skrpt_WPLD_Geld" key="{DE59EF77-8BDA-4011-8A16-E25BE3EFE013}" path="B:\TestCompletePro\Training\ExternalScripts\Packages\Skrpt_WPLD_Geld.js" />
+		<child name="Main" key="{B239F627-A4DE-4251-ABDC-770A66FFD5F0}" path="Main.js" />
+		<child name="WPLD_0000_0000_0100_0_Login" key="{B26F0B58-6858-49FC-BE49-36BD697E6BE8}" path="WPLD_0000_0000_0100_0_Login.js" />
+		<child name="WPLD_0100_0100_0100_10_Maske_Anzeigen_Wertpapier" key="{EE209CD9-6568-4C8E-8FAF-E7646AF0E036}" path="WPLD_0100_0100_0100_10_Maske_Anzeigen_Wertpapier.js" />
+		<child name="WPLD_0000_0000_0100_0_10_Login_Ausfuehren" key="{D56F34B0-EFE7-4F13-A3AE-DB321DA66C99}" path="WPLD_0000_0000_0100_0_10_Login_Ausfuehren.js" />
+		<child name="WPLD_0100_0100_0100_10_10_Masken_Aufbau_Pruefen" key="{54085F52-AA49-45C0-BDD1-353EBB5DB539}" path="WPLD_0100_0100_0100_10_10_Masken_Aufbau_Pruefen.js" />
+		<child name="WPLD_0100_0100_0100_10_20_Falsches_Datum_Vom" key="{F62500B5-11AE-4BE8-8B90-0C53597896E7}" path="WPLD_0100_0100_0100_10_20_Falsches_Datum_Vom.js" />
+		<child name="Algemeine_Funktionen" key="{8709938D-7701-45A7-AAE2-92626870352B}" path="Algemeine_Funktionen.js" />
+		<child name="WPLD_0100_0100_0100_10_30_Falsches_Datum_Bis" key="{1ED89423-92D0-4E2B-B46C-62F34A286D5B}" path="WPLD_0100_0100_0100_10_30_Falsches_Datum_Bis.js" />
+		<child name="WPLD_0100_0100_0100_10_40_Gueltiges_Datum_Vom_Bis" key="{6C70EEC9-76EA-43C9-B320-8B3F29C7AA72}" path="WPLD_0100_0100_0100_10_40_Gueltiges_Datum_Vom_Bis.js" />
+	</children>
+</Root>

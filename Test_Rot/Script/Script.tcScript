@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Unit1" key="{5E15109E-D8A7-43C2-9295-74AF9A30DF45}" path="Unit1.js" />
+		<child name="Sk01_Login" key="{9860B1EA-603F-475C-BDE6-4A2CD054FCB3}" path="B:\TestCompletePro\Training\ExternalScripts\Pack2\Sk01_Login.js" />
+		<child name="Sk2" key="{0D174D3E-82E5-41E6-BDB7-DEA7122670C3}" path="B:\TestCompletePro\Training\ExternalScripts\Pack2\Sk2.js" />
+		<child name="Sk3" key="{289CE391-8FAB-4289-8C73-BB679BDBAA1A}" path="B:\TestCompletePro\Training\ExternalScripts\Pack2\Sk3.js" />
+		<child name="Sk4" key="{85DC5D82-18CB-4FBB-AEF2-51A7C9BA73BF}" path="B:\TestCompletePro\Training\ExternalScripts\Pack2\Sk4.js" />
+		<child name="ManageExecutionPlan" key="{748EAD1A-732C-40DB-9F40-CCEFEAEEFFD1}" path="ManageExecutionPlan.js" />
+		<child name="Unit_A" key="{5B305305-6C72-4A5E-91DF-B8E398D31456}" path="Unit_A.js" />
+		<child name="ManageExecutionPlan2" key="{CC3F28A8-78C8-4521-BF67-D047F4DA8562}" path="ManageExecutionPlan2.js" />
+		<child name="Unit2" key="{F2A35801-729F-44D7-992F-CE6A173400DC}" path="Unit2.js" />
+		<child name="EventHandling" key="{C59C3BD7-C260-440F-8C66-09A609EB887B}" path="EventHandling.js" />
+		<child name="Unit3" key="{57FFADA9-FFDC-4390-B6EA-9F79E0DFAFB2}" path="Unit3.js" />
+		<child name="Unit4_Farbe_Fokus" key="{24BE08EE-2BD3-4679-AF98-92A207227791}" path="Unit4_Farbe_Fokus.js" />
+		<child name="Unit4_Apache" key="{202F8158-4ACE-42FB-9393-6DA88E71B3C4}" path="Unit4_Apache.js" />
+		<child name="test_utils_240626_dev" key="{EDD91CB7-7586-44CB-B976-16BF4211EE4B}" path="X:\Görenekli\Biblioteken\test_utils_240626_dev.js" />
+	</children>
+</Root>

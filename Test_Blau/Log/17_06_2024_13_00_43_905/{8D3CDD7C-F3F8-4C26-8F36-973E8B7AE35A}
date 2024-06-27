@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="45460.5425715509"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="FalschesDatumBis [Script\WPLD_0100_0100_0100_10_30_Falsches_Datum_Bis - FalschesDatumBis]"/>
+				<Prp name="details" type="S" value="{C40B8AA3-EA8E-4B42-BE70-DBB299522219}"/>
+				<Prp name="start time" type="D" value="45460.5422758333"/>
+				<Prp name="testdata item" type="B" value="0"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="45460.5422758333"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="Script Test Log [WPLD_0100_0100_0100_10_Maske_Anzeigen_Wertpapier\Maske_WPLD_Wert_Anzeigen]"/>
+				<Prp name="details" type="S" value="{898F4815-57C0-4A00-9FEC-A54E460E45F2}"/>
+				<Prp name="start time" type="D" value="45460.5422310532"/>
+				<Prp name="testdata item" type="B" value="0"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="start time" type="D" value="45460.5425715625"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{BE87DF8F-F12A-48A0-A79B-85EBE1907BE2}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="Maske_WPLD_Wert_Anzeigen_Aufbau"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="end time" type="D" value="45460.5426021644"/>
+			</Node>
+			<Node name="row3">
+				<Prp name="start time" type="D" value="45460.5426021875"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{EF989BE2-E7F4-49B3-93A3-8B9D57E055B7}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="FalschesDatumVom [Script\WPLD_0100_0100_0100_10_20_Falsches_Datum_Vom - FalschesDatumVom]"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="end time" type="D" value="45460.5426280671"/>
+			</Node>
+			<Node name="row4">
+				<Prp name="start time" type="D" value="45460.5426281018"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="details" type="S" value="{958F6051-32E3-4E9B-91E7-4CABB6A92C81}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="GueltigesDatumVomBis [Script\WPLD_0100_0100_0100_10_40_Gueltiges_Datum_Vom_Bis - GueltigesDatumVomBis]"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="end time" type="D" value="45460.5426479861"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

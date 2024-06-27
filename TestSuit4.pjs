@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{D25660E2-7644-4ADB-9F9A-1D933B5F491A}">
+	<children>
+		<child name="TestProject4" key="{2537E153-04F5-4A34-8987-9381B29FBF74}" path="TestProject4\TestProject4.mds" />
+		<child name="TestProject5 2980 szenario 1 login und Ändern" key="{93C44AD3-48E0-48B8-83AB-9EB598758BBB}" path="TestProject5 2980 szenario 1\TestProject5 2980 szenario 1 login und Ändern.mds" />
+		<child name="Test_E11" key="{42C304A9-D837-44B5-9A36-0E114C8293D0}" path="Test E11\Test_E11.mds" />
+		<child name="Test_Rot" key="{5797A9FA-1382-4382-9BBC-137F4B854EC6}" path="Test_Rot\Test_Rot.mds" />
+		<child name="Test_E11_2" key="{AECF3C22-600B-4A2B-98F7-492944F085EB}" path="Test_Blau\Test_E11_2.mds" />
+	</children>
+	<testItems key="{0A2764F9-23E2-465C-9E91-88935999865A}">
+		<children>
+			<testItem key="{2537E153-04F5-4A34-8987-9381B29FBF74}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{93C44AD3-48E0-48B8-83AB-9EB598758BBB}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{42C304A9-D837-44B5-9A36-0E114C8293D0}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{5797A9FA-1382-4382-9BBC-137F4B854EC6}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{AECF3C22-600B-4A2B-98F7-492944F085EB}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{64C3FDA3-CFBA-4E74-8990-CDC84DBF5206}" />
+	<analysis key="{312A04FE-6BFF-4418-97CF-EF4BD0E6CDF2}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

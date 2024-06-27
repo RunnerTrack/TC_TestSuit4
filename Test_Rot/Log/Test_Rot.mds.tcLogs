@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45469.5111488194"/>
+				<Prp name="description" type="S" value="Script Test Log [Unit4_Farbe_Fokus\Informationen_DatumFelder_Durch_Funktionen]"/>
+				<Prp name="key" type="S" value="{5E301DD1-33E2-4E17-BE63-FB8A50556AD3}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Unit4_Farbe_Fokus\Informationen_DatumFelder_Durch_Funktionen]"/>
+				<Prp name="relpath" type="S" value="26_06_2024_12_16_03_258\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45469.5117221296"/>
+				<Prp name="description" type="S" value="Script Test Log [Unit4_Farbe_Fokus\Informationen_DatumFelder_Durch_Funktionen]"/>
+				<Prp name="key" type="S" value="{462C51A3-FF4D-4168-AE95-DB0DE9852773}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Unit4_Farbe_Fokus\Informationen_DatumFelder_Durch_Funktionen]"/>
+				<Prp name="relpath" type="S" value="26_06_2024_12_16_52_792\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45469.5156512616"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{BA4D3C22-FB5F-4BEC-AA83-AEE5F495B490}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Unit4_Farbe_Fokus\Informationen_DatumFelder_Durch_Funktionen]"/>
+				<Prp name="relpath" type="S" value="26_06_2024_12_22_32_269\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45469.521008588"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{CE33FEC3-D0E2-4E01-B774-E02C9045D5F3}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Sk01_Login\Login]"/>
+				<Prp name="relpath" type="S" value="26_06_2024_12_30_15_142\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45469.5295966435"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A492172A-FFC5-43CD-A792-937E00E7ABC4}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Unit4_Farbe_Fokus\Informationen_DatumFelder_Durch_Funktionen]"/>
+				<Prp name="relpath" type="S" value="26_06_2024_12_42_37_150\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45469.5337754051"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{2184FAF2-F1C1-4F63-A2DA-F034E442EE1A}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Unit4_Farbe_Fokus\Informationen_DatumFelder_Durch_Funktionen]"/>
+				<Prp name="relpath" type="S" value="26_06_2024_12_48_38_195\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45469.5339743287"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{368AFD1A-525E-4E43-8A40-30BE0CA467D9}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Unit4_Farbe_Fokus\Informationen_DatumFelder_Durch_Funktionen]"/>
+				<Prp name="relpath" type="S" value="26_06_2024_12_48_55_382\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45469.5343200347"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A19E064F-E067-4212-B633-72E930FD0139}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Unit4_Farbe_Fokus\Informationen_DatumFelder_Durch_Funktionen]"/>
+				<Prp name="relpath" type="S" value="26_06_2024_12_49_25_251\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+			<Node name="log idx=0008">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45469.5506885417"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{55AD2BA4-0B13-47A6-B565-246FEF78C770}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Unit4_Farbe_Fokus\Informationen_DatumFelder_Durch_Funktionen]"/>
+				<Prp name="relpath" type="S" value="26_06_2024_13_12_59_490\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45470.4802072801"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F5D7A271-6598-4CF0-AD4A-8211A031D86C}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Sk01_Login\Login]"/>
+				<Prp name="relpath" type="S" value="27_06_2024_11_31_29_909\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

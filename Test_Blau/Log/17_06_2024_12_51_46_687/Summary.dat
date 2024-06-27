@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The child test Maske_WPLD_Wert_Anzeigen failed"/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="11756"/>
+						<Prp name="name" type="S" value="Login_Ausfuehren"/>
+						<Prp name="durationwithoutchildren" type="I" value="1067"/>
+						<Prp name="starttime" type="D" value="45460.5359964468"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1ADcANABFADkAOABDAEQALQA0ADkARABCAC0ANAAwADQAMwAtAEEAQgAwADkALQA3ADYARAA1AEUAMABCADUARQA1ADMANAB9AC8AewAzAEMAMgBEADAANQA1AEYALQBCAEIAMAA0AC0ANAA2ADAAMgAtAEIANwBCAEQALQAxADIAQQA1AEIANwAzAEYARQBFADcAQQB9AC8AGhHL3v86Z0CLViaRMGjlQwAAAAAvAGUAbQBwAHQAeQA="/>
+					</Node>
+					<Node name="test6">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="GueltigesDatumVomBis"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45460.536132581"/>
+						<Prp name="status" type="I" value="3"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="FalschesDatumBis"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45460.536132581"/>
+						<Prp name="status" type="I" value="3"/>
+					</Node>
+					<Node name="test4">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="Read_Text_File"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45460.536132581"/>
+						<Prp name="status" type="I" value="3"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The page '' was not found."/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="10689"/>
+						<Prp name="name" type="S" value="Maske_WPLD_Wert_Anzeigen"/>
+						<Prp name="durationwithoutchildren" type="I" value="10689"/>
+						<Prp name="starttime" type="D" value="45460.5360087384"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFADIAQwBGADcAQwA4AEEALQA4ADIANABGAC0ANABEADcAMgAtAEIAMgAyADkALQAzAEMARQA4ADQAOABCAEUAQwAyADUANgB9AC8AewAzAEMAMgBEADAANQA1AEYALQBCAEIAMAA0AC0ANAA2ADAAMgAtAEIANwBCAEQALQAxADIAQQA1AEIANwAzAEYARQBFADcAQQB9AC8AGhHL3v86Z0CLViaRMGjlQwAAAAAvAGUAbQBwAHQAeQA="/>
+					</Node>
+					<Node name="test5">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="FalschesDatumVom"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45460.536132581"/>
+						<Prp name="status" type="I" value="3"/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="name" type="S" value="Maske_WPLD_Wert_Anzeigen_Aufbau"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45460.536132581"/>
+						<Prp name="status" type="I" value="3"/>
+					</Node>
+				</Node>
+				<Prp name="failedtests" type="I" value="2"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="11756"/>
+				<Prp name="incompletedtests" type="I" value="5"/>
+				<Prp name="name" type="S" value="Test_E11_2"/>
+				<Prp name="starttime" type="D" value="45460.5359964468"/>
+			</Node>
+		</Node>
+		<Prp name="failedtests" type="I" value="2"/>
+		<Prp name="user" type="S" value="Goerenekli"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="testname" type="S" value="Test_E11_2"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="incompletedtests" type="I" value="5"/>
+		<Prp name="name" type="S" value="TestSuit4"/>
+		<Prp name="key" type="S" value="{94D00539-3B81-4A74-A435-DA232811F160}"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="tests" type="I" value="7"/>
+		<Prp name="stop" type="D" value="45460.5361332755"/>
+		<Prp name="starttime" type="D" value="45460.5359571065"/>
+		<Prp name="host" type="S" value="NB-DSFP010982"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+	</Node>
+</Nodes>

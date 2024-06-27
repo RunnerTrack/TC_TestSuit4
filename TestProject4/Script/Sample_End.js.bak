@@ -1,0 +1,9 @@
+﻿//USEUNIT ReportingFunctions
+function SampleCallMethod()
+{
+
+    
+      ReportingFunctions.setExecutionEndTime(aqDateTime.Time())
+      ReportingFunctions.fn_generatehighlevelreport()
+
+}

@@ -1,0 +1,17 @@
+﻿function prepareResult(){
+  // Access the test results
+var testResults = Project.TestResults;
+
+// Create a new report object
+var customReport = Project.Reports.Create("Custom Report");
+
+// Loop through test results and extract data
+for (var i = 0; i < testResults.Count; i++) {
+  var testCase = testResults(i).Test;
+  var status = testResults(i).Status;
+  // Add data to the report using methods like AddRow, AddCell
+}
+
+// Generate the report (optional)
+customReport.Generate();
+}

@@ -1,0 +1,4 @@
+﻿function HTMLReport()
+{
+  HTMLUtilities.CompanyName="TestComplete";
+}

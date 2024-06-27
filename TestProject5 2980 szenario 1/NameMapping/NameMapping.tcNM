@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{F4852905-4D5D-49DC-A502-A8CCFE15CA91}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{1879C879-4837-41A7-B464-6409F7949B2E}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{8CCAF616-8497-4AD5-98E9-DEB58F40354D}">
+								<Image FileName="-1480374799" Left="-9" Top="-9" Right="1687" Bottom="1017" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageLbbwMarketsOperationsPortal" Key="{1F878DA9-9313-4966-B0CD-3005498FC73C}">
+								<Image FileName="-1480374799" Left="3" Top="103" Right="1635" Bottom="1005" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://win2016-vss:2980/MiFID/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="frameAnmeldung" Key="{F2439393-6D89-4E2D-AD8E-0796D57076B0}">
+										<Image FileName="97061247" Left="3" Top="238" Right="1635" Bottom="1005" />
+										<Selectors>
+											<Selector>
+												<Value Value="frame[@name=&apos;Anmeldung&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="frame[@src=&apos;loginPage.html&apos;]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="textboxUserid" Key="{35ABC9C6-DA46-4DE3-976E-17EE15A995CA}">
+												<Image FileName="97061247" Left="724" Top="545" Right="864" Bottom="566" />
+												<TypeInfo Item0="{BCE9A63D-88A3-4D16-BB44-4189ACBFB552}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@name=&apos;userid&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//input[@type=&apos;text&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[6]/td/input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="passwordboxPassword" Key="{7CE871EA-FF33-4B19-8F72-154FBBB6C16C}">
+												<Image FileName="-2114127914" Left="724" Top="578" Right="864" Bottom="599" />
+												<TypeInfo Item0="{BCE9A63D-88A3-4D16-BB44-4189ACBFB552}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@name=&apos;password&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[8]/td/input[@type=&apos;password&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[8]/td/input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxInstitutsnr" Key="{F35DFEB8-696C-4CD6-9E40-F80D57C9FE72}">
+												<Image FileName="-1576264125" Left="724" Top="611" Right="864" Bottom="632" />
+												<TypeInfo Item0="{BCE9A63D-88A3-4D16-BB44-4189ACBFB552}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@name=&apos;institutsnr&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//input[@type=&apos;institutsnr&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[10]/td/input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="cell" Key="{1E432645-B5FD-42A0-9761-1385C06FAC2F}">
+												<Image FileName="-425884878" Left="587" Top="769" Right="1051" Bottom="794" />
+												<TypeInfo Item0="{B20AC603-A947-47C8-9AA7-D02FBD60A22E}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//tr[19]/td" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="imagebuttonAnmelden" Key="{FDD1C1D3-6B2B-4C88-A164-19C2279C6013}">
+												<Image FileName="-425406722" Left="914" Top="794" Right="1024" Bottom="809" />
+												<TypeInfo Item0="{B20AC603-A947-47C8-9AA7-D02FBD60A22E}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@type=&apos;image&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[20]/td/input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="passwordboxNewpassword" Key="{1C5ED0A8-39A3-4A5B-8939-1B5F376CA423}">
+												<Image FileName="-2140749454" Left="725" Top="697" Right="865" Bottom="718" />
+												<TypeInfo Item0="{BCE9A63D-88A3-4D16-BB44-4189ACBFB552}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@name=&apos;newPassword&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[15]/td/input[@type=&apos;password&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[15]/td/input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="cell2" Key="{155D01DE-91DA-4BA2-8C84-6E3D57E918C0}">
+												<Image FileName="-184658268" Left="615" Top="670" Right="1025" Bottom="685" />
+												<TypeInfo Item0="{B20AC603-A947-47C8-9AA7-D02FBD60A22E}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//td[.=&apos;Passwortänderung:&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[13]/td[contains(@class, &apos;textBd&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="page" Key="{2E497F91-B23A-451E-9679-64F4A7FE90B0}">
+								<Image FileName="1350292736" Left="8" Top="62" Right="1021" Bottom="771" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="frameMifidframe" Key="{5FB497BF-79ED-4DE2-B388-3493BC4DFDA7}">
+										<Image FileName="1350292736" Left="8" Top="197" Right="1021" Bottom="771" />
+										<Selectors>
+											<Selector>
+												<Value Value="frame[@name=&apos;mifidFrame&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="frame[contains(@src, &apos;MiFID&apos;)]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="frameLeft" Key="{A5163500-69DC-415B-9F23-F39459AF878C}">
+												<Image FileName="-371392842" Left="8" Top="197" Right="176" Bottom="771" />
+												<Selectors>
+													<Selector>
+														<Value Value="#left" />
+													</Selector>
+													<Selector>
+														<Value Value="frame[@name=&apos;leftFrame&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="frame[contains(@src, &apos;MiFID&apos;)]" />
+													</Selector>
+												</Selectors>
+												<Children>
+													<Child Name="frameMenuframe" Key="{43FF4489-374E-48C3-A693-CA5E5270A780}">
+														<Image FileName="-371392842" Left="8" Top="281" Right="176" Bottom="771" />
+														<Selectors>
+															<Selector>
+																<Value Value="frame[@name=&apos;menuFrame&apos;]" />
+															</Selector>
+														</Selectors>
+														<Children>
+															<Child Name="linkVorgangssteuerungE11" Key="{852B944A-3346-491B-9402-6B7227E6B31B}">
+																<Image FileName="-371392842" Left="16" Top="310" Right="154" Bottom="322" />
+																<TypeInfo Item0="{B20AC603-A947-47C8-9AA7-D02FBD60A22E}" />
+																<Selectors>
+																	<Selector>
+																		<Value Value="//a[contains(text(), &apos;Vorgangssteuerung E11&apos;)]" />
+																	</Selector>
+																	<Selector>
+																		<Value Value="//tr[2]/td/a" />
+																	</Selector>
+																</Selectors>
+															</Child>
+															<Child Name="linkWpLieferdisziplin" Key="{983F032F-FF97-4F4F-B1CC-2A40F3B1BB85}">
+																<Image FileName="738696137" Left="25" Top="326" Right="136" Bottom="338" />
+																<TypeInfo Item0="{B20AC603-A947-47C8-9AA7-D02FBD60A22E}" />
+																<Selectors>
+																	<Selector>
+																		<Value Value="//a[contains(text(), &apos;WP-LieferdiszipliN&apos;)]" />
+																	</Selector>
+																	<Selector>
+																		<Value Value="//tr[3]/td/a" />
+																	</Selector>
+																</Selectors>
+															</Child>
+															<Child Name="linkWertpapierSicht" Key="{0820E195-0383-496D-A9A5-13F6079FE37A}">
+																<Image FileName="910629987" Left="30" Top="344" Right="132" Bottom="356" />
+																<TypeInfo Item0="{B20AC603-A947-47C8-9AA7-D02FBD60A22E}" />
+																<Selectors>
+																	<Selector>
+																		<Value Value="//a[contains(text(), &apos;Wertpapier-Sicht&apos;)]" />
+																	</Selector>
+																	<Selector>
+																		<Value Value="//tr[4]/td/a" />
+																	</Selector>
+																</Selectors>
+															</Child>
+															<Child Name="linkWertpapierSeite" Key="{2D63C204-0DE9-4DB0-8D10-070FD43E7507}">
+																<Image FileName="-1661342851" Left="35" Top="362" Right="138" Bottom="374" />
+																<TypeInfo Item0="{B20AC603-A947-47C8-9AA7-D02FBD60A22E}" />
+																<Selectors>
+																	<Selector>
+																		<Value Value="//a[contains(text(), &apos;Wertpapier-Seite&apos;)]" />
+																	</Selector>
+																	<Selector>
+																		<Value Value="//tr[5]/td/a" />
+																	</Selector>
+																</Selectors>
+															</Child>
+															<Child Name="linkAnzeigen" Key="{DF915477-67CD-42A1-8EAB-29A3A88671C6}">
+																<Image FileName="-895575526" Left="40" Top="380" Right="104" Bottom="392" />
+																<TypeInfo Item0="{B20AC603-A947-47C8-9AA7-D02FBD60A22E}" />
+																<Selectors>
+																	<Selector>
+																		<Value Value="//a[contains(text(), &apos;Anzeigen&apos;)]" />
+																	</Selector>
+																	<Selector>
+																		<Value Value="//tr[6]/td/a" />
+																	</Selector>
+																</Selectors>
+															</Child>
+															<Child Name="linkBearbeitung" Key="{064F7678-DC2C-4653-8B78-7262D0DDA787}">
+																<Image FileName="-568025661" Left="40" Top="398" Right="119" Bottom="410" />
+																<TypeInfo Item0="{B20AC603-A947-47C8-9AA7-D02FBD60A22E}" />
+																<Selectors>
+																	<Selector>
+																		<Value Value="//a[contains(text(), &apos;Bearbeitung&apos;)]" />
+																	</Selector>
+																	<Selector>
+																		<Value Value="//tr[7]/td/a" />
+																	</Selector>
+																</Selectors>
+															</Child>
+															<Child Name="linkMen94012" Key="{AACCA293-3026-4E30-8E2E-67933C7E467A}">
+																<Image FileName="1652169091" Left="8" Top="319" Right="99" Bottom="336" />
+																<TypeInfo Item0="{B20AC603-A947-47C8-9AA7-D02FBD60A22E}" />
+																<Selectors>
+																	<Selector>
+																		<Value Value="//a[contains(text(), &apos;Menü 94012&apos;)]" />
+																	</Selector>
+																	<Selector>
+																		<Value Value="//tr/td/a" />
+																	</Selector>
+																</Selectors>
+															</Child>
+															<Child Name="cell" Key="{3C957798-A2ED-45B7-9898-3369EC87C121}">
+																<Image FileName="509841793" Left="8" Top="388" Right="146" Bottom="406" />
+																<TypeInfo Item0="{B20AC603-A947-47C8-9AA7-D02FBD60A22E}" />
+																<Selectors>
+																	<Selector>
+																		<Value Value="//td[contains(., &apos;Wertpapier-Seite&apos;)]" />
+																	</Selector>
+																	<Selector>
+																		<Value Value="//tr[5]/td" />
+																	</Selector>
+																</Selectors>
+															</Child>
+															<Child Name="cell2" Key="{4FB24F4F-77F6-4806-8A4D-CA21AF610D57}">
+																<Image FileName="-1293280948" Left="8" Top="337" Right="146" Bottom="352" />
+																<TypeInfo Item0="{B20AC603-A947-47C8-9AA7-D02FBD60A22E}" />
+																<Selectors>
+																	<Selector>
+																		<Value Value="//td[contains(., &apos;Vorgangssteuerung E11&apos;)]" />
+																	</Selector>
+																	<Selector>
+																		<Value Value="//tr[2]/td" />
+																	</Selector>
+																</Selectors>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="frameWorkflow" Key="{4762F399-197B-4168-86BA-47D87CD1775C}">
+												<Image FileName="1350292736" Left="176" Top="197" Right="1021" Bottom="771" />
+												<Selectors>
+													<Selector>
+														<Value Value="#workflow" />
+													</Selector>
+													<Selector>
+														<Value Value="frame[@name=&apos;workflowFrame&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="frame[@src=&apos;logon.html&apos;]" />
+													</Selector>
+												</Selectors>
+												<Children>
+													<Child Name="textboxElement21Formatted" Key="{200F0B21-04AF-46F9-8178-DA9BBFC7D869}">
+														<Image FileName="-571447430" Left="296" Top="491" Right="371" Bottom="511" />
+														<TypeInfo Item0="{BCE9A63D-88A3-4D16-BB44-4189ACBFB552}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//input[@name=&apos;element21_formatted&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//input[contains(@class, &apos;maske21&apos;)]" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="cell" Key="{9AFBFA2B-814A-4112-A98E-C196976818C7}">
+														<Image FileName="-1347116454" Left="314" Top="363" Right="445" Bottom="378" />
+														<TypeInfo Item0="{B20AC603-A947-47C8-9AA7-D02FBD60A22E}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//td[contains(text(), &apos;407,8000&apos;)]" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="buttonButton034" Key="{C9AAA7EC-B092-4A5F-84B0-9256C677BD04}">
+														<Image FileName="-484789306" Left="616" Top="577" Right="706" Bottom="602" />
+														<TypeInfo Item0="{62BC12B7-901F-4269-A83F-279D69EC91BC}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//button[@name=&apos;button034&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//button[text()=&apos;A&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[@id=&apos;button034DIV&apos;]/button[@type=&apos;button&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//button[contains(@class, &apos;button034&apos;)]" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[@id=&apos;button034DIV&apos;]/button" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="buttonButton013" Key="{43FDB629-551C-40EE-8190-1B50130661C1}">
+														<Image FileName="-1287143069" Left="186" Top="694" Right="266" Bottom="719" />
+														<TypeInfo Item0="{62BC12B7-901F-4269-A83F-279D69EC91BC}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//button[@name=&apos;button013&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//button[contains(., &apos;E&apos;)]" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[@id=&apos;button013DIV&apos;]/button[@type=&apos;button&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//button[contains(@class, &apos;button013&apos;)]" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[@id=&apos;button013DIV&apos;]/button" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="buttonButton0342" Key="{031E2C3B-E9CD-4640-9897-6708E1EA2813}">
+														<Image FileName="13498990" Left="616" Top="577" Right="706" Bottom="602" />
+														<TypeInfo Item0="{62BC12B7-901F-4269-A83F-279D69EC91BC}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//button[@name=&apos;button034&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//button[text()=&apos;Bearbeite&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[@id=&apos;button034DIV&apos;]/button[@type=&apos;button&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//button[contains(@class, &apos;button034&apos;)]" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[@id=&apos;button034DIV&apos;]/button" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="selectDropdow9" Key="{99329338-D0D2-4824-B5F2-FC567ACF837D}">
+														<Image FileName="1607822855" Left="921" Top="228" Right="996" Bottom="248" />
+														<TypeInfo Item0="{F62C33DF-66FD-4DB8-80FE-27EEA07F0DA2}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//select[@name=&apos;dropdow9&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[@id=&apos;dropdow9DIV&apos;]/select[contains(@class, &apos;dropdow9&apos;)]" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[@id=&apos;dropdow9DIV&apos;]/select" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="selectDropdow95" Key="{F1EA0FF0-557F-43CF-A8E0-ED8669838718}">
+														<Image FileName="1934999133" Left="791" Top="296" Right="851" Bottom="316" />
+														<TypeInfo Item0="{F62C33DF-66FD-4DB8-80FE-27EEA07F0DA2}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//select[@name=&apos;dropdow95&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//select[contains(@class, &apos;dropdow95&apos;)]" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[@id=&apos;dropdow95DIV&apos;]/select" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="textboxElement40" Key="{39A02D43-9BEA-4F7D-AD95-0BAB0F3FA0C8}">
+														<Image FileName="1635454414" Left="736" Top="571" Right="776" Bottom="591" />
+														<TypeInfo Item0="{BCE9A63D-88A3-4D16-BB44-4189ACBFB552}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//input[@name=&apos;element40&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//input[@value=&apos;UNIT&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//input[contains(@class, &apos;element40&apos;)]" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[@id=&apos;element40DIV&apos;]/input" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="buttonButton016" Key="{DCDF78D6-416E-4BF1-BB85-7B840B9D06E7}">
+														<Image FileName="-1065001487" Left="741" Top="694" Right="821" Bottom="719" />
+														<TypeInfo Item0="{62BC12B7-901F-4269-A83F-279D69EC91BC}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//button[@name=&apos;button016&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//button[contains(., &apos;S&apos;)]" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[@id=&apos;button016DIV&apos;]/button[@type=&apos;button&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//button[contains(@class, &apos;button016&apos;)]" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[@id=&apos;button016DIV&apos;]/button" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="cell2" Key="{C6434718-1824-41C9-AC41-B779118A134D}">
+														<Image FileName="-488401856" Left="306" Top="295" Right="437" Bottom="310" />
+														<TypeInfo Item0="{B20AC603-A947-47C8-9AA7-D02FBD60A22E}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//td[contains(text(), &apos;57,6400&apos;)]" />
+															</Selector>
+														</Selectors>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="Alert" Key="{CA50D838-0FA5-497E-B367-5541DBE34DE3}">
+										<Image FileName="-351415608" Left="290" Top="58" Right="738" Bottom="201" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Alert" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="buttonOk" Key="{A5CEB6C7-8A18-45B8-A6B6-F7CA40752A13}">
+												<Image FileName="-351415608" Left="658" Top="153" Right="722" Bottom="185" />
+												<TypeInfo Item0="{F1AFFA3C-11F8-4BB4-B071-9142D94B4B56}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="OK" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="buttonOk2" Key="{AA29FA3D-F877-4792-B9BF-6979E8881CB1}">
+												<Image FileName="1099786440" Left="659" Top="153" Right="723" Bottom="185" />
+												<TypeInfo Item0="{E4CCAB8E-82CD-4967-8E1E-599EAACCC799}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="OK" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="frameMifidframe2" Key="{D8350A10-69ED-46E2-9503-0FC77301A0C8}">
+										<Image FileName="1795504086" Left="8" Top="197" Right="1023" Bottom="772" />
+										<TypeInfo Item0="{B516DC2B-2F29-4623-8DEE-D2317B4BABCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="frame[@name=&apos;mifidFrame&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="frame[contains(@src, &apos;MiFID&apos;)]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="frameWorkflow" Key="{E565C0BC-633B-4AAA-801A-C04AAB2A4C49}">
+												<Image FileName="1795504086" Left="176" Top="197" Right="1023" Bottom="772" />
+												<TypeInfo Item0="{B516DC2B-2F29-4623-8DEE-D2317B4BABCC}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#workflow" />
+													</Selector>
+													<Selector>
+														<Value Value="frame[@name=&apos;workflowFrame&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="frame[@src=&apos;logon.html&apos;]" />
+													</Selector>
+												</Selectors>
+												<Children>
+													<Child Name="textboxElement21Formatted" Key="{7B33AE32-6110-40AF-A2A9-8A0A7A4F03AC}">
+														<Image FileName="1795504086" Left="296" Top="491" Right="371" Bottom="511" />
+														<TypeInfo Item0="{FCC19209-4147-4E92-80E3-C158339010B2}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//input[@name=&apos;element21_formatted&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//input[contains(@class, &apos;maske21&apos;)]" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="cell" Key="{33D02CA3-9A61-4EC5-A2D4-927B88A4077F}">
+														<Image FileName="947013674" Left="306" Top="370" Right="437" Bottom="385" />
+														<TypeInfo Item0="{B20AC603-A947-47C8-9AA7-D02FBD60A22E}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//td[contains(text(), &apos;1.500,0000&apos;)]" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="buttonButton093" Key="{B74C3073-D14E-4271-A859-6DF7191F8E34}">
+														<Image FileName="-905388559" Left="828" Top="799" Right="918" Bottom="824" />
+														<TypeInfo Item0="{62BC12B7-901F-4269-A83F-279D69EC91BC}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//button[@name=&apos;button093&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//button[contains(., &apos;K&apos;)]" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[@id=&apos;button093DIV&apos;]/button[@type=&apos;button&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//button[contains(@class, &apos;button093&apos;)]" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[@id=&apos;button093DIV&apos;]/button" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="buttonButton08" Key="{C2B4DD4E-00BE-4683-B78C-EC4D9679CCE5}">
+														<Image FileName="200454032" Left="178" Top="879" Right="258" Bottom="904" />
+														<TypeInfo Item0="{62BC12B7-901F-4269-A83F-279D69EC91BC}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//button[@name=&apos;button08&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//button[contains(., &apos;E&apos;)]" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[@id=&apos;button08DIV&apos;]/button[@type=&apos;button&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//button[contains(@class, &apos;button08&apos;)]" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[@id=&apos;button08DIV&apos;]/button" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="selectDropdow8" Key="{DCD519ED-2C02-4733-9291-833D7B8F9B81}">
+														<Image FileName="2108391216" Left="296" Top="281" Right="446" Bottom="301" />
+														<TypeInfo Item0="{F62C33DF-66FD-4DB8-80FE-27EEA07F0DA2}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//select[@name=&apos;dropdow8&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//select[contains(@class, &apos;dropdow8&apos;)]" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[@id=&apos;dropdow8DIV&apos;]/select" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="cell2" Key="{DFC19C2B-52DE-449F-A415-7572D0D9DD85}">
+														<Image FileName="36711235" Left="314" Top="318" Right="445" Bottom="333" />
+														<TypeInfo Item0="{B20AC603-A947-47C8-9AA7-D02FBD60A22E}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//td[contains(text(), &apos;9.393,0000&apos;)]" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="selectDropdow10" Key="{890B3DE3-EE5C-49E5-ACAA-B961661DC4FC}">
+														<Image FileName="635433905" Left="288" Top="303" Right="438" Bottom="323" />
+														<TypeInfo Item0="{F62C33DF-66FD-4DB8-80FE-27EEA07F0DA2}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//select[@name=&apos;dropdow10&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//select[contains(@class, &apos;dropdow10&apos;)]" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[@id=&apos;dropdow10DIV&apos;]/select" />
+															</Selector>
+														</Selectors>
+													</Child>
+													<Child Name="textboxElement22Formatted" Key="{40CA042D-68C1-42B5-BF7E-1C6C37520A71}">
+														<Image FileName="-400558128" Left="506" Top="491" Right="581" Bottom="511" />
+														<TypeInfo Item0="{BCE9A63D-88A3-4D16-BB44-4189ACBFB552}" />
+														<Selectors>
+															<Selector>
+																<Value Value="//input[@name=&apos;element22_formatted&apos;]" />
+															</Selector>
+															<Selector>
+																<Value Value="//input[contains(@class, &apos;maske22&apos;)]" />
+															</Selector>
+															<Selector>
+																<Value Value="//div[@id=&apos;element22DIV&apos;]/input" />
+															</Selector>
+														</Selectors>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow2" Key="{EFBAE753-55FE-43C4-8308-FE59B62BA64D}">
+								<Image FileName="-2068577670" Left="0" Top="0" Right="1031" Bottom="780" />
+								<TypeInfo Item0="{9290FB6D-6974-490D-9738-ABC8B3B4F487}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_1" Key="{6659B368-4E82-4553-BB93-EBEBB82B222C}">
+								<Image FileName="-870935339" Left="0" Top="0" Right="150" Bottom="95" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{96CFB60B-363D-47AA-A1F5-04619FC7B9CE}">
+										<Image FileName="-870935339" Left="0" Top="0" Right="150" Bottom="95" />
+										<TypeInfo Item0="{DE08D50B-A2F0-4216-8E11-D90E3D1B6858}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="OUTLOOK" Key="{A3C4925B-3BEF-47BF-BFE1-0E92A4C1B85D}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="OUTLOOK" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndrctrl_renwnd32" Key="{8616F354-7BD0-4AA2-97E7-97686920846B}">
+								<Image FileName="1544695311" Left="0" Top="0" Right="906" Bottom="518" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="rctrl_renwnd32" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Posteingang - Kasim.Goerenekli@dps.de - Outlook" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="NUIDocumentWindow" Key="{54A34A2D-E754-4DBE-B03A-216697E731A6}">
+										<Image FileName="1544695311" Left="1" Top="35" Right="49" Bottom="495" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="NetUINativeHWNDHost" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="NUIDocumentWindow" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="NetUIHWND" Key="{3BE6B817-F3B6-4BB7-9282-0EF3D2B4861B}">
+												<Image FileName="1544695311" Left="1" Top="35" Right="49" Bottom="495" />
+												<TypeInfo Item0="{DE08D50B-A2F0-4216-8E11-D90E3D1B6858}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="NetUIHWND" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{1879C879-4837-41A7-B464-6409F7949B2E}">
+			<Child Name="BrowserWindow" Owner="{8CCAF616-8497-4AD5-98E9-DEB58F40354D}" />
+			<Child Name="pageLbbwMarketsOperationsPortal" Owner="{1F878DA9-9313-4966-B0CD-3005498FC73C}">
+				<Child Name="frameAnmeldung" Owner="{F2439393-6D89-4E2D-AD8E-0796D57076B0}">
+					<Child Name="textboxUserid" Owner="{35ABC9C6-DA46-4DE3-976E-17EE15A995CA}" />
+					<Child Name="passwordboxPassword" Owner="{7CE871EA-FF33-4B19-8F72-154FBBB6C16C}" />
+					<Child Name="textboxInstitutsnr" Owner="{F35DFEB8-696C-4CD6-9E40-F80D57C9FE72}" />
+					<Child Name="cell" Owner="{1E432645-B5FD-42A0-9761-1385C06FAC2F}" />
+					<Child Name="imagebuttonAnmelden" Owner="{FDD1C1D3-6B2B-4C88-A164-19C2279C6013}" />
+					<Child Name="passwordboxNewpassword" Owner="{1C5ED0A8-39A3-4A5B-8939-1B5F376CA423}" />
+					<Child Name="cell2" Owner="{155D01DE-91DA-4BA2-8C84-6E3D57E918C0}" />
+				</Child>
+			</Child>
+			<Child Name="page" Owner="{2E497F91-B23A-451E-9679-64F4A7FE90B0}">
+				<Child Name="frameMifidframe" Owner="{5FB497BF-79ED-4DE2-B388-3493BC4DFDA7}">
+					<Child Name="frameLeft" Owner="{A5163500-69DC-415B-9F23-F39459AF878C}">
+						<Child Name="frameMenuframe" Owner="{43FF4489-374E-48C3-A693-CA5E5270A780}">
+							<Child Name="linkVorgangssteuerungE11" Owner="{852B944A-3346-491B-9402-6B7227E6B31B}" />
+							<Child Name="linkWpLieferdisziplin" Owner="{983F032F-FF97-4F4F-B1CC-2A40F3B1BB85}" />
+							<Child Name="linkWertpapierSicht" Owner="{0820E195-0383-496D-A9A5-13F6079FE37A}" />
+							<Child Name="linkWertpapierSeite" Owner="{2D63C204-0DE9-4DB0-8D10-070FD43E7507}" />
+							<Child Name="linkAnzeigen" Owner="{DF915477-67CD-42A1-8EAB-29A3A88671C6}" />
+							<Child Name="linkBearbeitung" Owner="{064F7678-DC2C-4653-8B78-7262D0DDA787}" />
+							<Child Name="linkMen94012" Owner="{AACCA293-3026-4E30-8E2E-67933C7E467A}" />
+							<Child Name="cell" Owner="{3C957798-A2ED-45B7-9898-3369EC87C121}" />
+							<Child Name="cell2" Owner="{4FB24F4F-77F6-4806-8A4D-CA21AF610D57}" />
+						</Child>
+					</Child>
+					<Child Name="frameWorkflow" Owner="{4762F399-197B-4168-86BA-47D87CD1775C}">
+						<Child Name="textboxElement21Formatted" Owner="{200F0B21-04AF-46F9-8178-DA9BBFC7D869}" />
+						<Child Name="cell" Owner="{9AFBFA2B-814A-4112-A98E-C196976818C7}" />
+						<Child Name="buttonButton034" Owner="{C9AAA7EC-B092-4A5F-84B0-9256C677BD04}" />
+						<Child Name="buttonButton013" Owner="{43FDB629-551C-40EE-8190-1B50130661C1}" />
+						<Child Name="buttonButton0342" Owner="{031E2C3B-E9CD-4640-9897-6708E1EA2813}" />
+						<Child Name="selectDropdow9" Owner="{99329338-D0D2-4824-B5F2-FC567ACF837D}" />
+						<Child Name="selectDropdow95" Owner="{F1EA0FF0-557F-43CF-A8E0-ED8669838718}" />
+						<Child Name="textboxElement40" Owner="{39A02D43-9BEA-4F7D-AD95-0BAB0F3FA0C8}" />
+						<Child Name="buttonButton016" Owner="{DCDF78D6-416E-4BF1-BB85-7B840B9D06E7}" />
+						<Child Name="cell2" Owner="{C6434718-1824-41C9-AC41-B779118A134D}" />
+					</Child>
+				</Child>
+				<Child Name="Alert" Owner="{CA50D838-0FA5-497E-B367-5541DBE34DE3}">
+					<Child Name="buttonOk" Owner="{A5CEB6C7-8A18-45B8-A6B6-F7CA40752A13}" />
+					<Child Name="buttonOk2" Owner="{AA29FA3D-F877-4792-B9BF-6979E8881CB1}" />
+				</Child>
+				<Child Name="frameMifidframe2" Owner="{D8350A10-69ED-46E2-9503-0FC77301A0C8}">
+					<Child Name="frameWorkflow" Owner="{E565C0BC-633B-4AAA-801A-C04AAB2A4C49}">
+						<Child Name="textboxElement21Formatted" Owner="{7B33AE32-6110-40AF-A2A9-8A0A7A4F03AC}" />
+						<Child Name="cell" Owner="{33D02CA3-9A61-4EC5-A2D4-927B88A4077F}" />
+						<Child Name="buttonButton093" Owner="{B74C3073-D14E-4271-A859-6DF7191F8E34}" />
+						<Child Name="buttonButton08" Owner="{C2B4DD4E-00BE-4683-B78C-EC4D9679CCE5}" />
+						<Child Name="selectDropdow8" Owner="{DCD519ED-2C02-4733-9291-833D7B8F9B81}" />
+						<Child Name="cell2" Owner="{DFC19C2B-52DE-449F-A415-7572D0D9DD85}" />
+						<Child Name="selectDropdow10" Owner="{890B3DE3-EE5C-49E5-ACAA-B961661DC4FC}" />
+						<Child Name="textboxElement22Formatted" Owner="{40CA042D-68C1-42B5-BF7E-1C6C37520A71}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="BrowserWindow2" Owner="{EFBAE753-55FE-43C4-8308-FE59B62BA64D}" />
+			<Child Name="wndChrome_WidgetWin_1" Owner="{6659B368-4E82-4553-BB93-EBEBB82B222C}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{96CFB60B-363D-47AA-A1F5-04619FC7B9CE}" />
+			</Child>
+		</Child>
+		<Child Name="OUTLOOK" Owner="{A3C4925B-3BEF-47BF-BFE1-0E92A4C1B85D}">
+			<Child Name="wndrctrl_renwnd32" Owner="{8616F354-7BD0-4AA2-97E7-97686920846B}">
+				<Child Name="NUIDocumentWindow" Owner="{54A34A2D-E754-4DBE-B03A-216697E731A6}">
+					<Child Name="NetUIHWND" Owner="{3BE6B817-F3B6-4BB7-9282-0EF3D2B4861B}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

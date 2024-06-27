@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Unit1_Write_Variables" key="{BB8CB4C8-08D7-4CC5-B31B-A75D87B84FAA}" path="Unit1_Write_Variables.js" />
+		<child name="ReadExcelData" key="{E4C35A76-7061-4935-9E84-527EF173AEF5}" path="ReadExcelData.js" />
+		<child name="Unit2_ReadExcel" key="{39FADF27-614D-4CC6-B485-02525412D2F8}" path="Unit2_ReadExcel.js" />
+		<child name="Unit1_timeout" key="{6517FB6B-1A45-47F1-8E8A-528292D2E5B2}" path="Unit1_timeout.js" />
+		<child name="Unit3_checkfile" key="{8BE2C529-8471-4DAF-A588-9220B3F7107A}" path="Unit3_checkfile.js" />
+		<child name="Read_Masks" key="{C724BEE7-E70D-47B9-9A82-5254282B1CD9}" path="Read_Masks.js" />
+		<child name="WL_Main" key="{C49262FA-6354-44CB-97D1-3C20F690D40A}" path="WL_Main.js" />
+		<child name="WL_test3" key="{F600DACC-6A2C-4387-A72E-32D680606CCF}" path="WL_test3.js" />
+		<child name="WL_Test2" key="{DD29BE11-2725-4721-9CF4-764181B6419E}" path="WL_Test2.js" />
+		<child name="Franks" key="{78FD7ED3-995A-4EAF-BDEC-6C9AD9DD3F31}" path="Franks.js" />
+		<child name="Hull" key="{7420E382-747E-4D45-B674-D23E10DAF921}" path="Hull.js" />
+		<child name="Buckley" key="{6E854A96-D780-486C-A936-7BE02533CE43}" path="Buckley.js" />
+		<child name="ExcelScripts" key="{578805A9-6011-417E-AAFC-619A2788E78C}" path="B:\TestCompletePro\Training\Data\ExcelScripts.js" />
+		<child name="LogResultsExample" key="{95FB51C6-0138-49E2-9C83-1CCE2F7FC934}" path="LogResultsExample.js" />
+		<child name="HTMLReporter" key="{D9A4E994-4BDC-4896-A8AD-5EEB3A1DE15A}" path="HTMLReporter.js" />
+		<child name="SampleCallMethod" key="{AF0CEE49-01D6-4ED4-8E18-BE60B4C20F5E}" path="SampleCallMethod.js" />
+		<child name="ReportingFunctions" key="{40723763-9205-4DE0-9098-7CC7C2CDA97C}" path="ReportingFunctions.js" />
+		<child name="Skrpt_Login" key="{7B98A851-683E-4886-AA37-73C84E9C9321}" path="B:\TestCompletePro\Training\ExternalScripts\Packages\Skrpt_Login.js" />
+		<child name="Skrpt_Login__Check_WPLD" key="{497DFF22-9752-4D74-97F2-C9AD0198EF46}" path="B:\TestCompletePro\Training\ExternalScripts\Packages\Skrpt_Login__Check_WPLD.js" />
+		<child name="Skrpt_Read_File" key="{A5454F35-5DBD-47C2-B787-97988162A157}" path="B:\TestCompletePro\Training\ExternalScripts\Packages\Skrpt_Read_File.js" />
+		<child name="Skrpt_WPLD_Geld" key="{9E6D493F-DA81-424E-AEC2-93FA4F901659}" path="B:\TestCompletePro\Training\ExternalScripts\Packages\Skrpt_WPLD_Geld.js" />
+		<child name="Sample_Start" key="{D36E95E2-83C2-4CC5-920B-CC928A8A995B}" path="Sample_Start.js" />
+		<child name="Sample_End" key="{15325F87-D962-4DFC-8B7B-82368F14515E}" path="Sample_End.js" />
+		<child name="SampleCallMethod2" key="{95673D71-842B-45AB-9499-BD4D4FBCB1E7}" path="SampleCallMethod2.js" />
+		<child name="Access_Text_Log" key="{2B1F4706-1FBC-4579-8EAA-8848188900B9}" path="Access_Text_Log.js" />
+	</children>
+</Root>

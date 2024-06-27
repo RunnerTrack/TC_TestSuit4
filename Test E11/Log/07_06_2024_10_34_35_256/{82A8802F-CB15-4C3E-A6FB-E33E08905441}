@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="725"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;edge&quot;).Page(&quot;http://win2016-vss:2980/MiFID/&quot;).FindElement(&quot;frame[@name='Anmeldung']&quot;).FindElement(&quot;//input[@name='institutsnr']&quot;)"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="162"/>
+					<Prp name="object bottom" type="I" value="633"/>
+					<Prp name="object top" type="I" value="612"/>
+					<Prp name="datetime" type="D" value="45450.3573866204"/>
+					<Prp name="object right" type="I" value="865"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Browser(&quot;edge&quot;).Page(&quot;http://win2016-vss:2980/MiFID/&quot;).FindElement(&quot;frame[@name='Anmeldung']&quot;).FindElement(&quot;//input[@name='institutsnr']&quot;)"/>
+			<Prp name="date" type="D" value="45450.4407209607"/>
+			<Prp name="message" type="S" value="The text '71000' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="162"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{3EF696EC-646D-41FC-AE7D-80605FF08B63}"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="725"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;edge&quot;).Page(&quot;http://win2016-vss:2980/MiFID/&quot;).FindElement(&quot;frame[@name='Anmeldung']&quot;).FindElement(&quot;//input[@name='userid']&quot;)"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="160"/>
+					<Prp name="object bottom" type="I" value="567"/>
+					<Prp name="object top" type="I" value="546"/>
+					<Prp name="datetime" type="D" value="45450.3573827315"/>
+					<Prp name="object right" type="I" value="865"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Browser(&quot;edge&quot;).Page(&quot;http://win2016-vss:2980/MiFID/&quot;).FindElement(&quot;frame[@name='Anmeldung']&quot;).FindElement(&quot;//input[@name='userid']&quot;)"/>
+			<Prp name="date" type="D" value="45450.4407170833"/>
+			<Prp name="message" type="S" value="The text '94012' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="160"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="915"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;edge&quot;).Page(&quot;http://win2016-vss:2980/MiFID/&quot;).FindElement(&quot;frame[@name='Anmeldung']&quot;).FindElement(&quot;//input[@type='image']&quot;)"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="163"/>
+					<Prp name="object bottom" type="I" value="810"/>
+					<Prp name="object top" type="I" value="795"/>
+					<Prp name="datetime" type="D" value="45450.3573896875"/>
+					<Prp name="object right" type="I" value="1025"/>
+					<Prp name="click point y" type="I" value="802"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="970"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (55, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;edge&quot;).Page(&quot;http://win2016-vss:2980/MiFID/&quot;).FindElement(&quot;frame[@name='Anmeldung']&quot;).FindElement(&quot;//input[@type='image']&quot;)"/>
+			<Prp name="date" type="D" value="45450.440724456"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="163"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="remarks" type="S" value="Microsoft Edge"/>
+			<Prp name="date" type="D" value="45450.4406884144"/>
+			<Prp name="message" type="S" value="The browser is already running."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="142"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="725"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;edge&quot;).Page(&quot;http://win2016-vss:2980/MiFID/&quot;).FindElement(&quot;frame[@name='Anmeldung']&quot;).FindElement(&quot;//input[@name='password']&quot;)"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="161"/>
+					<Prp name="object bottom" type="I" value="600"/>
+					<Prp name="object top" type="I" value="579"/>
+					<Prp name="datetime" type="D" value="45450.3573846875"/>
+					<Prp name="object right" type="I" value="865"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Browser(&quot;edge&quot;).Page(&quot;http://win2016-vss:2980/MiFID/&quot;).FindElement(&quot;frame[@name='Anmeldung']&quot;).FindElement(&quot;//input[@name='password']&quot;)"/>
+			<Prp name="date" type="D" value="45450.4407190394"/>
+			<Prp name="message" type="S" value="The value of the TestSuit4.Test_E11.Password1 variable was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="161"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-8"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Sys.Browser(&quot;edge&quot;).BrowserWindow(0)"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="145"/>
+					<Prp name="object bottom" type="I" value="1018"/>
+					<Prp name="object top" type="I" value="-8"/>
+					<Prp name="datetime" type="D" value="45450.3573788542"/>
+					<Prp name="object right" type="I" value="1688"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Browser(&quot;edge&quot;).BrowserWindow(0)"/>
+			<Prp name="date" type="D" value="45450.4407130208"/>
+			<Prp name="message" type="S" value="The 'LBBW MARKETS OPERATIONS-Portal - Geschäftlich – Microsoft Edge' window was maximized."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="145"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 1">
+			<Prp name="remarks" type="S" value="URL: http://win2016-vss:2980/MiFID/&#xA;&#xA;Sys.Browser(&quot;edge&quot;)"/>
+			<Prp name="date" type="D" value="45450.4407116088"/>
+			<Prp name="message" type="S" value="Navigating to the http://win2016-vss:2980/MiFID/ page."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="144"/>
+		</Node>
+		<Prp name="status" type="I" value="1"/>
+	</Node>
+</Nodes>

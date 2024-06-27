@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="end time" type="D" value="45460.5416764468"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="Read_Text_File [Script\Skrpt_Read_File - Read_Text_File]"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="start time" type="D" value="45460.5416751273"/>
+				<Prp name="details" type="S" value="{302F2C3F-6ED2-48DB-84E4-20988DBA3831}"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="end time" type="D" value="45460.5416751157"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="Script Test Log [WPLD_0100_0100_0100_10_10_Masken_Aufbau_Pruefen\Maske_WPLD_Wert_Anzeigen_Aufbau]"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="start time" type="D" value="45460.5416446875"/>
+				<Prp name="details" type="S" value="{5519315F-C65B-4A8F-9DDA-5A61C1CED3B3}"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

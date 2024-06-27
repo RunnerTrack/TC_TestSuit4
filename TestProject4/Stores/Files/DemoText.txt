@@ -1,0 +1,11 @@
+function ReadFileLines(AFileName)
+with this function we read the entire file.
+
+* Run from Command Line.
+*+ C:\> testcomplete "...\TestSuit4.pjs" /r /p:Test_E11 
+*+   /ExportLog:"...\result.htm" /ExportSummary:"...\JUnit-rprt.xml"
+* Created Batch file.
+* Ovorwrite error. Added Timestamp
+* Couldn't find object error. Double Monitor. 
+* Added Delay
+heute ist Montag

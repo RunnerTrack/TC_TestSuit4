@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The page '' was not found."/>
+							</Node>
+						</Node>
+						<Prp name="name" type="S" value="Maske_WPLD_Wert_Anzeigen"/>
+						<Prp name="duration" type="I" value="10752"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2ADQAQQBFADQANQA4AEYALQAyADYAMgAyAC0ANAAzADQAMgAtAEEANwA4AEYALQBFAEIANQA4AEUAMgA2ADUAMQA3ADYANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="10752"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="starttime" type="D" value="45450.5289793171"/>
+					</Node>
+					<Node name="test5">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="Read_Text_File"/>
+						<Prp name="duration" type="I" value="71"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBBADkANABDADkAQQBFADMALQBCAEYAMABBAC0ANAAyADAARAAtADgANQBFADMALQAyAEUAMgAzADkARQA2ADIANQBFADMARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="71"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45450.5291173843"/>
+					</Node>
+					<Node name="test4">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="Read_Text_File"/>
+						<Prp name="duration" type="I" value="71"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA3AEMAOABBAEQANQA2AEIALQAyAEEAMQA4AC0ANAAyAEQAMQAtAEIANAAxADAALQA5ADQANwBGADQARQBEAEYAMgBFAEEANAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="71"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45450.5291165162"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to find the object &quot;frame[@name='mifidFrame']&quot;. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="name" type="S" value="Maske_WPLD_Geld_Zeigen"/>
+						<Prp name="duration" type="I" value="962"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5ADAARgBFADcAMQBEADkALQA2ADQARgA5AC0ANABBADUAOQAtADkARQA3ADgALQBCADUAMAA5AEQANgA1ADcANwA4AEIAMQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="962"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="starttime" type="D" value="45450.529103831"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="Login"/>
+						<Prp name="duration" type="I" value="6956"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCADMARQA2ADYAMwA0AEQALQAzAEQANwBFAC0ANAA2AEUAQwAtAEEANgA0ADUALQBEADIAQgBCAEIAQgA3AEIANwA1AEMAOAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="6956"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45450.5288987153"/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="Read_Text_File"/>
+						<Prp name="duration" type="I" value="124"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2AEQANQA4AEUAOQAwADkALQA2AEEARQBBAC0ANAA4AEEAQwAtAEIARAA5AEUALQAwADYARQBCADEARAA0ADMAOQA3ADIAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="124"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45450.5291150231"/>
+					</Node>
+				</Node>
+				<Prp name="name" type="S" value="Test_E11"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="18936"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="2"/>
+				<Prp name="starttime" type="D" value="45450.5288987153"/>
+			</Node>
+		</Node>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="name" type="S" value="TestSuit4"/>
+		<Prp name="host" type="S" value="NB-DSFP010982"/>
+		<Prp name="key" type="S" value="{19306969-6630-4A84-B870-6724311CD4D4}"/>
+		<Prp name="starttime" type="D" value="45450.528898669"/>
+		<Prp name="tests" type="I" value="6"/>
+		<Prp name="testname" type="S" value="Test_E11"/>
+		<Prp name="user" type="S" value="Goerenekli"/>
+		<Prp name="failedtests" type="I" value="2"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="stop" type="D" value="45450.5291189468"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+	</Node>
+</Nodes>

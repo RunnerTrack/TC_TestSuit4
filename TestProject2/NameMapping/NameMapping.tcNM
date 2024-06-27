@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{DF2C2133-7678-4C4B-A003-BF6CADF89398}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="explorer" Key="{389C59FC-CA87-4044-8AA2-ABEA8254FFBE}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndProgman" Key="{960C8803-A0C3-46FF-ACEC-4AA0F31DC542}">
+								<Image FileName="1283995622" Left="0" Top="0" Right="1680" Bottom="2100" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Progman" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Program Manager" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="SHELLDLL_DefView" Key="{942DB827-3941-4772-AA32-638EB9DAB3E1}" ExtendedFind="True">
+										<Image FileName="1283995622" Left="0" Top="0" Right="1680" Bottom="2100" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="SHELLDLL_DefView" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="FolderView" Key="{634C30C6-9AB1-40F1-95FF-7666FAC07492}">
+												<Image FileName="1283995622" Left="0" Top="0" Right="1680" Bottom="2100" />
+												<TypeInfo Item0="{8DD4EF85-DE13-4680-98C6-F24077A4157B}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="SysListView32" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="FolderView" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="firefox" Key="{1E90650C-3C5B-46EF-ADE8-F1BEB07A4184}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="firefox" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndMozillaWindowClass" Key="{A66BC275-C238-4A12-8314-3D132A9F9FE9}">
+								<Image FileName="43926507" Left="0" Top="0" Right="1220" Bottom="728" />
+								<TypeInfo Item0="{8E4AB943-F040-4A26-B6C1-021C1EEBB80A}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="MozillaWindowClass" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{35B9030A-B6B1-4469-8964-A4A22A937C5D}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{2F7B3BE5-2EAB-4F24-9D29-16CC6E7CDC47}">
+								<Image FileName="-330307566" Left="-9" Top="-9" Right="1687" Bottom="1017" />
+								<TypeInfo Item0="{8E4AB943-F040-4A26-B6C1-021C1EEBB80A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageSearch" Key="{DD0CB0AC-1828-42AB-8856-9975203AC6A1}">
+								<TypeInfo Item0="{5BA1D9A2-CEE5-41E3-821A-11083B3E10D8}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.bing.com/search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeBResults" Key="{7304A5C3-4107-4C19-AC6B-EE3EDD242BB4}">
+										<Image FileName="1804233494" Left="163" Top="254" Right="811" Bottom="2558" />
+										<Selectors>
+											<Selector>
+												<Value Value="#b_results" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol[contains(., &apos;smartbear.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main/ol" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSmartbearCom" Key="{BCD03A7C-72F5-4C72-BF8C-A145653FCEE2}">
+										<Image FileName="1804233494" Left="163" Top="254" Right="811" Bottom="505" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;smartbear.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;b_vtl_deeplinks&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSmartbearSoftware" Key="{43DC19BC-74E8-4D1E-870C-E773A7DC4830}">
+										<Image FileName="1804233494" Left="183" Top="306" Right="791" Bottom="334" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[.=&apos;SmartBear Software&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2[contains(@class, &apos;b_topTitle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSmartbearSoftware" Key="{0F36D2EB-3D83-4ECB-893D-1D07DD1ED147}">
+										<Image FileName="1804233494" Left="183" Top="308" Right="363" Bottom="332" />
+										<TypeInfo Item0="{5EB1195C-C890-40C0-B1C0-8C707FD0F001}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;SmartBear Software&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol[@id=&apos;b_results&apos;]//h2/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageShop" Key="{6983C01C-8C04-4F7C-BE33-D0744AAC8E67}">
+								<Image FileName="288833641" Left="3" Top="103" Right="1635" Bottom="1005" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbearstore.smartbear.com/samples/TestComplete14/smartstore/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{42159E1A-DE29-4A12-A7B8-CAA5AB7FD09D}">
+										<Image FileName="1721715143" Left="3" Top="103" Right="1620" Bottom="282" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSearch" Key="{FC589B45-D9B7-4E3A-BD37-C47B28452FC6}">
+										<Image FileName="1721715143" Left="454" Top="162" Right="1057" Bottom="205" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;search&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;instasearch-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInstasearch" Key="{5EECD738-83A1-4633-BF87-B3711D56F80D}">
+										<Image FileName="1721715143" Left="454" Top="162" Right="1057" Bottom="205" />
+										<TypeInfo Item0="{402A8290-06D6-470E-AAC9-9B8AC63A0376}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#instasearch" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;q&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;instasearch-term&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkOfficialGame" Key="{F3B16418-9A40-4807-92FA-5B425D32FCBA}">
+										<Image FileName="260651294" Left="268" Top="367" Right="1057" Bottom="423" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Official game&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a[contains(@class, &apos;instasearch-hit&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBall" Key="{E33FCA95-21F3-4DC4-AC68-1D5110D61F16}">
+										<Image FileName="260651294" Left="421" Top="374" Right="445" Bottom="393" />
+										<TypeInfo Item0="{5EB1195C-C890-40C0-B1C0-8C707FD0F001}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul/li[3]/a//span[contains(@class, &apos;instasearch-match&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;torfabrik-official-game-ball&apos;)]//span/span/span/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a/span/span/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageTorfabrikOfficialGameBall" Key="{275EA34D-3CB5-4F78-B9B1-8F8CA718DC7D}">
+								<Image FileName="288833641" Left="3" Top="103" Right="1635" Bottom="1005" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbearstore.smartbear.com/samples/TestComplete14/smartstore/torfabrik-official-game-ball" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{E83D97E9-8542-46BF-9DF0-EC7D3EEF1915}">
+										<Image FileName="-2056906067" Left="242" Top="306" Right="1382" Bottom="1640" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Sports&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="articleOfficialGameBall" Key="{502ED905-EFEF-4955-A1C0-48334F66CA99}">
+										<Image FileName="-2056906067" Left="257" Top="349" Right="1367" Bottom="1212" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Official game ball&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[contains(@class, &apos;pd&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="asideOfficialGameBall" Key="{8981872C-9F03-4CA7-8AC9-3185E30AE3A2}">
+										<Image FileName="-2056906067" Left="906" Top="349" Right="1381" Bottom="1004" />
+										<Selectors>
+											<Selector>
+												<Value Value="//aside[contains(., &apos;Official game ball&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside[contains(@class, &apos;col-12&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;pd-form&apos;]//aside" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/aside" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOfficialGameBall" Key="{75988CE7-ECBE-441C-BE85-F1E1BB98FA4B}">
+										<Image FileName="-2056906067" Left="921" Top="349" Right="1366" Bottom="372" />
+										<TypeInfo Item0="{5EB1195C-C890-40C0-B1C0-8C707FD0F001}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[contains(text(), &apos;Official game ball&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;pd-name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;pd-form&apos;]//h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="explorer" Owner="{389C59FC-CA87-4044-8AA2-ABEA8254FFBE}">
+			<Child Name="wndProgman" Owner="{960C8803-A0C3-46FF-ACEC-4AA0F31DC542}">
+				<Child Name="SHELLDLL_DefView" Owner="{942DB827-3941-4772-AA32-638EB9DAB3E1}">
+					<Child Name="FolderView" Owner="{634C30C6-9AB1-40F1-95FF-7666FAC07492}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="firefox" Owner="{1E90650C-3C5B-46EF-ADE8-F1BEB07A4184}">
+			<Child Name="wndMozillaWindowClass" Owner="{A66BC275-C238-4A12-8314-3D132A9F9FE9}" />
+		</Child>
+		<Child Name="browser" Owner="{35B9030A-B6B1-4469-8964-A4A22A937C5D}">
+			<Child Name="BrowserWindow" Owner="{2F7B3BE5-2EAB-4F24-9D29-16CC6E7CDC47}" />
+			<Child Name="pageSearch" Owner="{DD0CB0AC-1828-42AB-8856-9975203AC6A1}">
+				<Child Name="textnodeBResults" Owner="{7304A5C3-4107-4C19-AC6B-EE3EDD242BB4}">
+					<Child Name="textnodeSmartbearCom" Owner="{BCD03A7C-72F5-4C72-BF8C-A145653FCEE2}">
+						<Child Name="textnodeSmartbearSoftware" Owner="{43DC19BC-74E8-4D1E-870C-E773A7DC4830}">
+							<Child Name="linkSmartbearSoftware" Owner="{0F36D2EB-3D83-4ECB-893D-1D07DD1ED147}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageShop" Owner="{6983C01C-8C04-4F7C-BE33-D0744AAC8E67}">
+				<Child Name="header" Owner="{42159E1A-DE29-4A12-A7B8-CAA5AB7FD09D}">
+					<Child Name="formSearch" Owner="{FC589B45-D9B7-4E3A-BD37-C47B28452FC6}">
+						<Child Name="textboxInstasearch" Owner="{5EECD738-83A1-4633-BF87-B3711D56F80D}" />
+						<Child Name="linkOfficialGame" Owner="{F3B16418-9A40-4807-92FA-5B425D32FCBA}">
+							<Child Name="textnodeBall" Owner="{E33FCA95-21F3-4DC4-AC68-1D5110D61F16}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageTorfabrikOfficialGameBall" Owner="{275EA34D-3CB5-4F78-B9B1-8F8CA718DC7D}">
+				<Child Name="sectionContent" Owner="{E83D97E9-8542-46BF-9DF0-EC7D3EEF1915}">
+					<Child Name="articleOfficialGameBall" Owner="{502ED905-EFEF-4955-A1C0-48334F66CA99}">
+						<Child Name="asideOfficialGameBall" Owner="{8981872C-9F03-4CA7-8AC9-3185E30AE3A2}">
+							<Child Name="textnodeOfficialGameBall" Owner="{75988CE7-ECBE-441C-BE85-F1E1BB98FA4B}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

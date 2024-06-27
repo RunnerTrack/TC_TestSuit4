@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{39FADF27-614D-4CC6-B485-02525412D2F8}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="9" kind="0" dateTime="45439.3753587963" objectName="Aliases.browser.pageShop.header.formSearch.textboxInstasearch" objectLeft="454" objectTop="162" objectRight="1057" objectBottom="205" clickPointX="500" clickPointY="194" imageFileName="tcvi10321359147521.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="11" kind="0" dateTime="45439.3753703704" objectName="Aliases.browser.pageShop.header.formSearch.textboxInstasearch" objectLeft="267" objectTop="162" objectRight="1058" objectBottom="205" clickPointX="-2" clickPointY="1048" imageFileName="tcvi10322593147522.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="15" kind="0" dateTime="45439.3754050926" objectName="Aliases.browser.pageShop.header.formSearch.linkOfficialGame.textnodeAvailableInDifferentColo" objectLeft="336" objectTop="393" objectRight="504" objectBottom="415" clickPointX="394" clickPointY="401" imageFileName="tcvi10326046147523.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

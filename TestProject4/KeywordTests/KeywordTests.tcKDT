@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Test1" key="{A0F15E67-A6A7-4A8A-9E90-8D7656E03119}" path="Test1.tcKDTest" />
+		<child name="Test2_timeout" key="{795901F9-52E6-4648-A87D-9EFBDE17ED48}" path="Test2_timeout.tcKDTest" />
+		<child name="Read_an_excel_page" key="{78C6AA6A-8002-4409-96B5-970493860EDE}" path="Read_an_excel_page.tcKDTest" />
+	</children>
+</Root>
